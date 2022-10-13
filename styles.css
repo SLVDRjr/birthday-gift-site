@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Moana;
+    src: url(font/MoanaRainyDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: KR;
+    src: url(font/KR\ Birthday\ Letters.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(blue, #fff);
+}
+
+#title {
+    font-family: Moana;
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 0 0 1px;
+}
+
+h2, h4, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 40px 0;
+}
+
+#celebrant-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid gold;
+    object-fit: cover;
+}
+
+.msg-section-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+.msg-section {
+    width: 300px;
+    height: 400px;
+}
+
+.msg-box {
+    border: 2px solid rgb(86, 86, 238);
+    border-radius: 6px;
+    height: 100%;
+}
+
+.msg-letter {
+    font-family: KR;
+    font-size: 82px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 2px;
+}
+
+.msg-content {
+    background-image: url("img/birthday-cover.jpg");
+    background-size: cover;
+	background-position: center;
+    border-radius: 6px;
+    height: 100%;
+}
+
+#msg-img-l:hover {
+    background-image: url("img/b_day1.png");
+}
+
+#msg-img-i:hover {
+    background-image: url("img/b_day2.png");
+}
+
+#msg-img-a:hover {
+    background-image: url("img/b_day3.png");
+}
+
+#msg-img-m:hover {
+    background-image: url("img/b_day4.png");
+}
+
+#celebrant {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 140px 10px 40px 0;
+    color: blue;
+}
